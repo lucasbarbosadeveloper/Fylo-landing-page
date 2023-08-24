@@ -215,3 +215,44 @@ body{
 
     }
 }
+
+.c-footer{
+    display: flex;
+    flex-direction: column;
+    background-color: $primary-color1;
+    
+    p, a, li{
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+    .c-footer__contacts{
+        margin: 50px 20px 0px 20px;
+
+        .c-footer__logo{
+            width: 250px;
+            margin-bottom: 30px;
+        }
+    
+        .c-footer__icons{
+            width: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    .c-footer__platforms, .c-footer__terms{
+        margin: 20px 20px;
+    }
+
+    .c-footer__social-medias{
+        margin: 20px 20px;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a{
+            margin: 0px 10px;
+        }
+    }
+}
