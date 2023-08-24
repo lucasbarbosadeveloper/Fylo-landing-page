@@ -9,6 +9,7 @@ img{
     padding: 0px;
     text-decoration: none;
     box-sizing: border-box;
+    list-style: none;
 }
 
 body{
@@ -17,8 +18,43 @@ body{
 
 .f-title{
     font-family: $headings-font;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .f-body{
     font-family: $standard-font;
+    font-size: 1rem;
+    font-weight: 400;
 }
+
+// header & nav
+.c-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    .c-header__logo{
+        width: 100px;
+    }
+
+    .c-navbar__items{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a{
+            font-size: 0.8rem;
+            font-weight: 400;
+            margin: 0px 8px;
+            color: $primary-color1;
+
+            &:hover{
+                text-decoration: underline;
+                color: $primary-color2;
+            }
+        }
+    }
+}
+
