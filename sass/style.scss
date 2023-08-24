@@ -1,5 +1,9 @@
 @import "./variaveis/variables.scss";
 // default
+img{
+    width: 100%;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -27,7 +31,7 @@ body{
 @mixin button-style() {
     color: #ffffff;
     background-color: $accent-color1;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -182,5 +186,32 @@ body{
         }
     }
 
-     
+    .c-content__regist{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px;
+        background-color: $primary-color2;
+        color: #ffffff;
+        text-align: center;
+        
+        h3, p{
+            margin-bottom: 30px;
+        }
+
+        .c-content__form2{
+            margin: 0px 8%;
+
+            input{
+                @include input-style();
+                width: 100%;
+                margin-bottom: 10px
+            }
+            
+            button{
+                @include button-style();
+                width: 100%;
+            }
+        }
+
+    }
 }
