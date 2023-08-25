@@ -20,12 +20,16 @@
 
     <main class="c-content">
         <section class="c-content__description">
-            <img src="images/illustration-1.svg" alt="imagem-ilustrativa-1" class="c-content__img">
+            <img src="images/illustration-1.svg" alt="imagem-ilustrativa-1" class="c-content__img1">
             <form class="c-content__form1">
                 <h1 class="f-title">Todos os seus arquivos em um local seguro, acessível em qualquer lugar.</h1>
                 <p class="f-body">O Fylo armazena seus arquivos mais importantes em um local seguro. Acesse-os sempre que precisar, compartilhe e colabore com amigos, familiares e colegas de trabalho.</p>
-                <input type="email" name="input-email" id="input-email" placeholder="Introduza o seu e-mail">
-                <button class="f-title">Comece a utilizar</button>
+                <div class="c-content__form1--org">
+                    <input type="email" name="input-email" id="input-email" placeholder="Introduza o seu e-mail">
+                    <span class="f-body error-email">Insira um e-mail válido</span>
+                    <button class="f-title">Comece a utilizar</button>
+                </div>
+
             </form>
         </section>
 
@@ -35,13 +39,13 @@
         </picture>
 
         <section class="c-content__reports">
-            <img src="images/illustration-2.svg" alt="imagem-ilustrativa-2" class="c-content__img">
+            <img src="images/illustration-2.svg" alt="imagem-ilustrativa-2" class="c-content__img2">
 
             <div class="c-content__introduction">
                 <h2 class="f-title">Mantenha-se produtivo, onde quer que esteja</h2>
                 <p class="f-body">Nunca deixe que a localização seja um problema ao acessar seus arquivos. A Fylo atende a todas as suas necessidades de armazenamento de arquivos.</p>
                 <p class="f-body">Compartilhe arquivos e pastas com segurança com amigos, familiares e colegas para colaboração ao vivo. Nenhum anexo de e-mail é necessário!</p>
-                <a href="#" class="f-body">Veja como o Fylo funciona<img src="images/icon-arrow.svg"></a>
+                <a href="#" class="f-body">Veja como o Fylo funciona<i class="fa-solid fa-circle-arrow-right"></i></a>
 
                 <aside class="c-content__CEO">
                     <img src="images/icon-quotes.svg" class="c-content__CEO--img1">
@@ -66,6 +70,7 @@
 
             <form class="c-content__form2">
                 <input type="email" name="contact_email" id="contact_email" placeholder="email@exemplo.com">
+                <span class="f-body error-email" >Insira um e-mail válido</span>
                 <button class="f-title">Comece a utilizar gratuitamente</button>
             </form>
         </section>
