@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <title>Fylo landing page</title>
 </head>
 <body>
@@ -19,15 +20,15 @@
     </header>
 
     <main class="c-content">
-        <section class="c-content__description">
+        <section class="c-content__description" id="c-content__description">
             <img src="images/illustration-1.svg" alt="imagem-ilustrativa-1" class="c-content__img1">
             <form class="c-content__form1">
                 <h1 class="f-title">Todos os seus arquivos em um local seguro, acessível em qualquer lugar.</h1>
                 <p class="f-body">O Fylo armazena seus arquivos mais importantes em um local seguro. Acesse-os sempre que precisar, compartilhe e colabore com amigos, familiares e colegas de trabalho.</p>
                 <div class="c-content__form1--org">
-                    <input type="email" name="input-email" id="input-email" placeholder="Introduza o seu e-mail">
-                    <span class="f-body error-email">Insira um e-mail válido</span>
-                    <button class="f-title">Comece a utilizar</button>
+                    <input type="email" name="input-email" id="input-email1" placeholder="Introduza o seu e-mail">
+                    <span class="f-body error-email"  id="error-email1">Insira um e-mail válido</span>
+                    <button class="f-title" type="submit">Comece a utilizar</button>
                 </div>
 
             </form>
@@ -38,7 +39,7 @@
             <img src="images/bg-curve-mobile.svg">
         </picture>
 
-        <section class="c-content__reports">
+        <section class="c-content__reports" id="c-content__reports">
             <img src="images/illustration-2.svg" alt="imagem-ilustrativa-2" class="c-content__img2">
 
             <div class="c-content__introduction">
@@ -62,7 +63,7 @@
             </div>
         </section>
 
-        <section class="c-content__regist">
+        <section class="c-content__regist" id="c-content__regist">
             <div class="c-content__instruction-regist">
                 <h3 class="f-title">Obtenha acesso antecipado hoje mesmo</h3>
                 <p class="f-body">Só demora um minuto a registar-se e o nosso nível inicial gratuito é extremamente generoso. Se tiver alguma dúvida, a nossa equipa de apoio terá todo o gosto em ajudá-lo.</p>
@@ -70,8 +71,8 @@
 
             <form class="c-content__form2">
                 <input type="email" name="contact_email" id="contact_email" placeholder="email@exemplo.com">
-                <span class="f-body error-email" >Insira um e-mail válido</span>
-                <button class="f-title">Comece a utilizar gratuitamente</button>
+                <span class="f-body error-email" id="error-email2">Insira um e-mail válido</span>
+                <button class="f-title" type="submit">Comece a utilizar gratuitamente</button>
             </form>
         </section>
     </main>
@@ -108,5 +109,6 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/45de14f9b3.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>
